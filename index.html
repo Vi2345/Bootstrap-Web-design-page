@@ -251,19 +251,19 @@
 
               <div class="form-floating">
                   <input required type="text-center" class="form-control mb-3" id="floatingName" placeholder="Your name | Company">
-                  <label for="floatingName">Your name | Company</label>
+                  <label for="floatingName">Your name | Company:</label>
                 </div>
               <div class="form-floating mb-3">
                   <input required type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                  <label for="floatingInput">Email address</label>
+                  <label for="floatingInput">Email address:</label>
                 </div>
                 <div class="form-floating mb-3">
                   <input  required type="text" class="form-control" id="floatingPhone" placeholder="+99 9999000998">
-                  <label for="floatingPhone">Phone number</label>
+                  <label for="floatingPhone">Phone number:</label>
                 </div>
 
                 <select  required class="form-select mb-3" multiple aria-label="multiple select example">
-                  <option value="0">Select Services</option>
+                  <option value="0">Select Services:</option>
                   <option value="Web designing">Web Designing</option>
                   <option value="Web development">Web development</option>
                   <option value="Web WEB RESEARCH">Web WEB RESEARCH</option>
@@ -273,8 +273,8 @@
                   <option value="IOT">IOT</option>
                 </select>
 
-                 <div>
-                  <textarea required type="text"  cols="30" rows="5" class="form-control" placeholder="Details">Details:</textarea>
+                  <div>
+                  <textarea required class="form-control"  cols="30" rows="5" placeholder="Details:"></textarea>
                 </div>
               </div>
 
@@ -532,7 +532,7 @@
 
               <div>
             
-               <textarea cols="30" rows="5" class="form-control" id="detail" spellcheck="false" onkeyup="validatedetail()">Details"</textarea>
+               <textarea required class="form-control" cols="30" rows="5"  id="detail" placeholder="Details:" spellcheck="false" onkeyup="validatedetail()"></textarea>
                <label for="detail" id="detail-label"></label>
                <small id="d-error" class="d-block mb-3 text-danger"></small>
               </div>
