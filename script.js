@@ -78,6 +78,13 @@ function validatedetail(){
         detailField.style.border="2px solid red";
         return false;
         }
+
+        else if(detailField.value.length<300 || detailField.value.length>300){
+            detailerror.innerHTML="Details should have contain atleast 300 words";
+            detailField.style.border="2px solid red";
+            return false;
+        }
+
        
     
         else{
